@@ -1,0 +1,52 @@
+# ignore git-module files
+.gitmodules
+.devcontainer/
+.vscode/
+
+# README.md
+README.md
+
+# implementation files
+*_impl.py
+
+# packaging and sphinx documentation files
+dist/
+*.rst
+
+# tmp files and directories
+*tmp/
+*temp/
+*.tmp
+*.temp
+
+# log files and directories
+*log/
+*logs/
+*.log
+
+# archive files
+*.tar
+*.tgz
+*.zip
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# byte-compiled, optimized, DLL, sphinx files
+__pycache__/
+.cache
+.pytest_cache/
+*.egg-info/
+*doctrees/
+*html/
+*.py[cod]
+*$py.class
+*.so
